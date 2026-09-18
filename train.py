@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 import joblib
 #  Train the model using the imported data
-model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=2)
+model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=2,criterion="entropy")
 model.fit(X_train, Y_train)
 
 predictions = model.predict(X_test)
