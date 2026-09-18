@@ -67,6 +67,5 @@ streamlit run app.py
 4. Change the parameters to reflect poor financial health (e.g., Bad Credit History, High Loan Amount, Low Income). Click the button again to verify the system accurately switches its prediction to "❌ LOAN REJECTED."
 
 ## Screenshots
-*(Add your screenshots to the repository folder and update these image paths)*
 * **Terminal Execution & Model Metrics:** `./imges/terminal_output.png`
 * **Streamlit Web Application UI:** `./images/web_app.png`
