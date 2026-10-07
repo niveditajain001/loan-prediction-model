@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn import svm
 from sklearn.metrics import accuracy_score
-df=pd.read_csv('dataset/dataset_train.csv')
+df=pd.read_csv('dataset/train_u6lujuX_CVtuZ9i.csv')
 print (df)
 print(df.info())
 print(df.describe())
